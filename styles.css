@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background: #f4f4f4;
+}
+
+header {
+    background: rgb(231, 231, 47);
+    color: #0f0101;
+    padding: 20px 0;
+    text-align: center;
+    font-family :'Times New Roman', Times, serif;
+    font-size: 50px; /* Sets the font size */
+    font-weight: bold; /* Makes the text bold */
+    text-transform: uppercase; /* Converts text to uppercase */
+    letter-spacing: 2px; /* Adds space between letters */
+    
+}
+
+
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #35424a;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.mission-image {
+    width: 100%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width to maintain responsiveness */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Optional: Rounds the corners of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
+    margin-top: 10px; /* Adds space between the text and the image */
+}
+
+.approach-image {
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width to maintain responsiveness */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Optional: Rounds the corners of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
+    margin-top: 10px; /* Adds space between the text and the image */
+}
+.about-image {
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width to maintain responsiveness */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Optional: Rounds the corners of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
+    margin-top: 10px; /* Adds space between the text and the image */
+}
+.home-image {
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width to maintain responsiveness */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Optional: Rounds the corners of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
+    margin-top: 10px; /* Adds space between the text and the image */
+}
+
+
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #35424a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #1c1c1c;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgb(231, 231, 47);
+    color: #140303;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
